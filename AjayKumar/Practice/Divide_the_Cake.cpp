@@ -1,0 +1,35 @@
+// https://www.codechef.com/problems/ANUDTC
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    if (360%n == 0){
+	        cout<<"y ";
+	    }
+	    else {
+	        cout<<"n ";
+	    }
+	    if (n<=360){
+	        cout<<"y "; 
+	    }
+	    else{
+	        cout<<"n ";
+	    }
+	    if (n<=26){
+	        cout<<"y ";
+	    }
+	    else{
+	        cout<<"n ";
+	    }
+	    cout<<"\n";
+	}
+	
+	return 0;
+}
